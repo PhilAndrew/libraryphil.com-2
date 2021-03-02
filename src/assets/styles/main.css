@@ -4,6 +4,15 @@ a {
   @apply text-blue-700;
 }
 
+ul {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+background: rgb(58, 105, 199, 0.1);
+  border: 2px solid rgb(58, 105, 199, 0.5);
+ border-radius: 5px;
+}
 a:hover {
   @apply underline;
 }
