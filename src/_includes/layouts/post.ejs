@@ -1,11 +1,12 @@
 ---
-layout: layouts/base.ejs
+layout: layouts/inner.ejs
 ---
 
 <article>
   <header>
-    <h1 class="text-center font-bold text-gray-800"><%= title %></h1>
-    <div class="text-center text-sm mb-8">
+    <h1 class=" text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:leading-14;  ">
+    <%= title %></h1>
+    <div class="text-center mb-8">
       <%= this.dateFns.format(new Date(date), 'LLLL d, yyyy') %>
     </div>
   </header>
