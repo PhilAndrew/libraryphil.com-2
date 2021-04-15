@@ -2,7 +2,7 @@
 
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: proxima-nova, Arial, Helvetica, sans-serif
 }
 a {
   @apply text-blue-700;
