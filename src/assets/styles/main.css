@@ -1,5 +1,9 @@
 @tailwind base;
 
+
+p {
+  font-family: 'Lato', sans-serif;
+}
 a {
   @apply text-blue-700;
 }
